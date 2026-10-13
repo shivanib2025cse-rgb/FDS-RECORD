@@ -1,0 +1,70 @@
+# ---------- Python bytecode / cache ----------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---------- Virtual environments ----------
+venv/
+.venv/
+env/
+ENV/
+.env/
+
+# ---------- Environment variables / secrets ----------
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+
+# ---------- Packaging / build ----------
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+pip-wheel-metadata/
+*.whl
+
+# ---------- Testing / coverage ----------
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.hypothesis/
+
+# ---------- Type checkers / linters ----------
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- Logs ----------
+*.log
+logs/
+
+# ---------- Data files (uncomment if you don't want them tracked) ----------
+# *.csv
+# *.xlsx
+# *.db
+# *.sqlite3
+# data/
+
+# ---------- IDE / editor ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---------- OS files ----------
+.DS_Store
+Thumbs.db
+desktop.ini
